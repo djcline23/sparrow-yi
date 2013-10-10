@@ -8,4 +8,4 @@
 
 cd ~/scratch/sparrow
 
-blastn -query 1150_TS.fasta -db db_1128 -out 1150_search_1128_v2 -outfmt '10 qseqid sseqid qlen slen length pident' -max_target_seqs 1
+blastn -query 1150_TS.fasta -db db_1128 -out results/1150_search_1128_v2 -outfmt '10 qseqid sseqid qlen slen length pident' -max_target_seqs 1
