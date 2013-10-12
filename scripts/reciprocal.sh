@@ -9,3 +9,4 @@
 cd ~/scratch/sparrow/results
 
 python blast.py 1150_search_1128_v2 1128_search_1150_v2 reciprocal
+sort -t "," -u -k1,1 reciprocal > distinctReciprocals
