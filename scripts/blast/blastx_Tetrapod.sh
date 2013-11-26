@@ -8,4 +8,4 @@
 
 cd ~/scratch/sparrow/tetrapod
 
-blastx -query 1150_hetero.fasta -db tetrapod -out tetrapodBlastResults -outfmt '10 qseqid sgi pident' -max_target_seqs 1
+blastx -query 1150_notFoundInBirds.fasta -db tetrapod -out tetrapodBlastResults -outfmt '10 qseqid sgi pident' -max_target_seqs 1
